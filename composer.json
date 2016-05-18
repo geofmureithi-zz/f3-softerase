@@ -4,6 +4,9 @@
     "keywords": ["F3","fatfree","Soft Delete","Soft Erase"],
     "homepage": "https://github.com/acemureithi/f3-softerase",
     "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.4.0",
+    },
     "autoload": {
 		"classmap": ["lib/"]
     }
