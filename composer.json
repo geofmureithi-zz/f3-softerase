@@ -1,0 +1,10 @@
+{
+    "name": "acemureithi/f3-softerase",
+    "description": "Soft Erases for PHP Fat-Free Framework ORM",
+    "keywords": ["F3","fatfree","Soft Delete","Soft Erase"],
+    "homepage": "https://github.com/acemureithi/f3-softerase",
+    "license": "GPL-3.0",
+    "autoload": {
+		"classmap": ["lib/"]
+    }
+}
