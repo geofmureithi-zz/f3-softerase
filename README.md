@@ -91,7 +91,17 @@ Books::onlyErased($mapper);
 #### NOTE
 Also note that load(), erase(), save() and find() are defined in the trait
 
+This trait should be usabe with any class that extends `\DB\Cursor` and that includes `\DB\SQL\Mapper`, `\DB\Mongo\Mapper`, `\DB\Jig\Mapper` and also `\DB\Cortex`
+
 ## FAQ
+#### Can I use it on php 5.3?
+
+No. Traits are ony supported from php 5.4 onward.
+
+#### Any Db Changes Needed?
+
+Yes, especially `SQL` Databases, add a field `deleted_at` (or how you define it in the $deleteTime variable) to avoid field missing errors
+
 
 
 
