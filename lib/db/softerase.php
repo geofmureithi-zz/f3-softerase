@@ -40,7 +40,7 @@ trait SoftErase {
 	 *
 	 * @return bool
 	 */
-	public function forceErase()
+	public function forceErase($filter)
 	{
 		$this->bypass = true;
 		if ($filter)
