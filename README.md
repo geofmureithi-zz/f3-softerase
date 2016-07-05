@@ -10,7 +10,7 @@ It is also required to have a `deleted_at` field for all SQL databases
 ## Installation
 
 To install, copy the `/lib/db/softerase.php` file to the `/lib/db/`. 
-OR use Composer and run `composer require acemureithi/f3-softerase:1.*`
+OR use Composer and run `composer require acemureithi/f3-softerase`
 
 ## Getting Started
 
