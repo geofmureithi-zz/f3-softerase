@@ -2,7 +2,7 @@
 
 Instead of removing records from your database, the SoftErase Trait will store records in a trashed state, and deleted records can be restored.
 
-##System Requirements
+## System Requirements
 
 SoftErase requires at least Fat-Free v3.* and PHP 5.4+.
 It is also required to have a `deleted_at` field for all SQL databases
